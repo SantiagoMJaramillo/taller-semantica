@@ -5,106 +5,106 @@ Nombre del Estudiante: Santiago Montes Jaramillo
    Etiqueta de Apertura y Cierre
    ¿Qué es una etiqueta de apertura?
 
-Una etiquieta indica el inicio de un elemento, que se escribe entre signos de menor y mayor que,Ejemplo: <P> para comenzar un parrafo
+Una etiquieta indica el inicio de un elemento, que se escribe entre signos de menor y mayor que,Ejemplo: "P" para comenzar un parrafo
 
 ¿Qué es una etiqueta de cierre?
 
-Una etiquieta indica el inicio de un elemento, que se escribe entre signos de menor y mayor que pero incluye una barra inclinada antes del nombre del elemento,Ejemplo: </P> para Cerrar un parrafo.
+Una etiquieta indica el inicio de un elemento, que se escribe entre signos de menor y mayor que pero incluye una barra inclinada antes del nombre del elemento,Ejemplo: "/P" para Cerrar un parrafo.
 
 Atributos
 ¿Qué es un atributo y para qué sirve? Da un ejemplo.
 
-Un atributo proporciona informacion adicional sobre un elemento, que sirve para difinir propiedades como el destino de un elance, el estilo o indicador, etc., ejemplo <a href="https://www.wikipedia.org" target="_blank">Visitar Wikipedia</a>
+Un atributo proporciona informacion adicional sobre un elemento, que sirve para difinir propiedades como el destino de un elance, el estilo o indicador, etc., ejemplo "a" href="https://www.wikipedia.org" target="_blank">Visitar Wikipedia"/a"
 
-<a> → etiqueta de apertura para un enlace.
+"a" → etiqueta de apertura para un enlace.
 href="https://www.wikipedia.org" → atributo que indica la dirección web a la que llevará el enlace.
-target="\_blank" → hace que el enlace se abra en una nueva pestaña del navegador.
+target="\blank" → hace que el enlace se abra en una nueva pestaña del navegador.
 Visitar Wikipedia → texto visible que el usuario verá y podrá hacer clic.
-</a> → etiqueta de cierre del enlace.
+"/a" → etiqueta de cierre del enlace.
 
 2. El Poder de la Semántica
    HTML Semántico
    ¿Qué es el HTML Semántico y por qué es tan importante?
-El HTML Semantico se usa como mejores practicas en el desarrollo, donde se usan etiquetas que describen el significado y la funcion del contenido que encierra mejorando la accesibilidad al permitir que los lectores de pantalla y demas colaboradores que ingresen al proyecto puedan interpretar correctamente la estructura de la pagina; de esta forma se optimiza al comprender la jerarquia y la relevancia de la informacion por ejemplo, <header> define la cabecera de una página o sección, <nav> agrupa enlaces de navegación, <main> contiene el contenido principal único del documento y <section> organiza bloques de contenido relacionado, logrando así un código más claro, estructurado y fácil de mantener.
+El HTML Semantico se usa como mejores practicas en el desarrollo, donde se usan etiquetas que describen el significado y la funcion del contenido que encierra mejorando la accesibilidad al permitir que los lectores de pantalla y demas colaboradores que ingresen al proyecto puedan interpretar correctamente la estructura de la pagina; de esta forma se optimiza al comprender la jerarquia y la relevancia de la informacion por ejemplo, "header" define la cabecera de una página o sección, "nav" agrupa enlaces de navegación, "main" contiene el contenido principal único del documento y "section" organiza bloques de contenido relacionado, logrando así un código más claro, estructurado y fácil de mantener.
 
 
 Diccionario de Etiquetas Semánticas
-1: <header>:
+1: header:
 
 Etiqueta de encabezado de la aplicación (Solo debe existir un único header por archivo .html)
 
-2: <nav>:
+2:nav:
 
 Etiqueta que representa un menú de navegación 
 
-3: <main>:
+3: main:
 
 Etiqueta que representa el contenido principal de la vista (Solo debe existir un único main por archivo .html)
 
-4: <section>:
+4: section:
 
 Etiqueta que agrupa elementos pertenecientes a una misma categorías.
 
-5: <article>:
+5: article:
 
 Etiqueta que representa un contenido independiente
 
-6: <aside>:
+6: aside:
 
 Etiqueta de contenido lateral (izquierda o derecha) 
 
-7: <footer>:
+7: footer:
 
 Etiqueta de pie de pagina del proyecto, incluye redes sociales e información de contacto (Solo debe existir un único footer por archivo .html)  
 
-8: <Form>:
+8: Form:
 
  Etiqueta de contendió de formulario de contacto e interacción con el usuario
 
-9: <div>:
+9: div:
 
  Etiqueta no semántica no representa un propósito claro dentro del proyecto 
 
-10: <h1> a <h6>:
+10: h1 a h6:
 
  Encabezados jerárquicos que definen títulos y subtítulos (h1 solo se puede usar solo una vez por pantalla)
 
-11: <address>:
+11: address:
 
  Información de contacto del autor o de la organización.
 
-12: <figure>:
+12: figure:
 
  Contenedor para contenido visual (imágenes, gráficos, diagramas) con su descripción.
 
-13: <time>:
+13: time:
 
  Representa una fecha u hora, legible por humanos y máquinas.
 
-14: <figcaption>:
+14: figcaption:
 
- Leyenda o descripción de un <figure>.
+ Leyenda o descripción de un figure.
 
-15: <mark>:
+15: mark:
 
  reslta texto relevante 
 
-16: <strong>:
+16: strong:
 
  Indica que el texto es de gran importancia.
 
-17: <cite>:
+17: cite:
 
  Referencia a una obra, autor o fuente.
 
-18 <dfn>:
+18 dfn:
 
  Marca la definicion de un termino
 
-19 <summary>:
+19 summary:
 
- titulo visible de un elemento <details>
+ titulo visible de un elemento "details"
 
-20: <details>:
+20: details:
 
  Contenedor de informacion que el usuario puede expandir o contraer
